@@ -1,4 +1,5 @@
-const { getLayerZeroAddress } = require("../utils/layerzero")
+
+const{ getLayerZeroAddress } = require("../utils/layerzero")
 const CONFIG = require("../constants/config.json")
 const { isTestnet, isLocalhost } = require("../utils/network")
 const { getEndpointIdByName } = require("@layerzerolabs/lz-sdk")
